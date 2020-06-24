@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dodge", "dodge\dodge.csproj", "{46E1FA2E-425B-406C-877C-708E238E55EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E1FA2E-425B-406C-877C-708E238E55EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E1FA2E-425B-406C-877C-708E238E55EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E1FA2E-425B-406C-877C-708E238E55EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E1FA2E-425B-406C-877C-708E238E55EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {714E96DA-1139-4320-BF8E-06D7534F1768}
+	EndGlobalSection
+EndGlobal
