@@ -21,8 +21,8 @@ namespace dodge
         {
             x2 = 320;
             y2 = 360;
-            width2 = 40;
-            height2 = 40;
+            width2 = 60;
+            height2 = 45;
             spaceship = Properties.Resources.alien1;
             spaceRec = new Rectangle(x2, y2, width2, height2);
         }
@@ -34,20 +34,32 @@ namespace dodge
 
             g.DrawImage(spaceship, spaceRec);
         }
-        public void MoveSpaceship(Direction move)
+        public void MoveSpaceship(string move)
         {
             spaceRec.Location = new Point(x2, y2);
 
-            if (move == Direction.Right)
+            if (move == "right")
             {
 
-                x2 += 5;
+                x2 += 10;
                 spaceRec.Location = new Point(x2, y2);
             }
-            if (move == Direction.Left)
+            if (move =="left")
             {
 
-                x2 -= 5;
+                x2 -= 10;
+                spaceRec.Location = new Point(x2, y2);
+            }
+            if (move == "down")
+            {
+
+                y2 += 10;
+                spaceRec.Location = new Point(x2, y2);
+            }
+            if (move == "up")
+            {
+
+                y2 -= 10;
                 spaceRec.Location = new Point(x2, y2);
             }
 

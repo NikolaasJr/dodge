@@ -13,7 +13,7 @@ namespace dodge
         public Image planetImage;//variable for the planet's image
 
         public Rectangle planetRec;//variable for a rectangle to place our image in
-        public int score;
+        public int score = 3;
         //Create a constructor (initialises the values of the fields)
         public Planet(int spacing)
         {
